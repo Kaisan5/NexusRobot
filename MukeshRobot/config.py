@@ -10,7 +10,7 @@ class Config(object):
     EVENT_LOGS = ()
     MONGO_DB_URI= ""
    
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgresql://Nexus:QM5XpBHmZFIPcBuMGv8Y4A@nexusnetwork-6627.jxf.gcp-us-west2.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full"  # A sql database url from elephantsql.com
     CASH_API_KEY = (
         ""
     )
